@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog — SEO, lokální SEO a GEO návody | JakNaOnline</title>
+<meta name="description" content="Praktické návody a postřehy o SEO, lokálním SEO a GEO optimalizaci. Krátké, konkrétní, bez agenturního žargonu.">
+<link rel="canonical" href="https://jaknaonline.cz/blog/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Blog — SEO, lokální SEO a GEO návody | JakNaOnline">
+<meta property="og:description" content="Praktické návody a postřehy o SEO, lokálním SEO a GEO optimalizaci.">
+<meta property="og:url" content="https://jaknaonline.cz/blog/">
+<meta property="og:locale" content="cs_CZ">
+<meta name="robots" content="index, follow">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%2304060b%22/><text x=%2250%22 y=%2266%22 font-size=%2255%22 text-anchor=%22middle%22 fill=%22%232effa0%22 font-family=%22monospace%22>&gt;</text></svg>">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+
+<!-- Blog schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "name": "JakNaOnline Blog",
+  "url": "https://jaknaonline.cz/blog/",
+  "description": "Praktické návody a postřehy o SEO, lokálním SEO a GEO optimalizaci.",
+  "publisher": { "@type": "Organization", "name": "JakNaOnline" }
+}
+</script>
+</head>
+<body>
+
+<header class="site-nav">
+  <div class="nav-inner">
+    <a class="logo" href="../"><span class="bracket">&gt;</span> jaknaonline</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Otevřít menu" aria-expanded="false">menu</button>
+    <nav class="links" id="navLinks">
+      <a href="../#seo">SEO</a>
+      <a href="../#lokalni-seo">Lokální SEO</a>
+      <a href="../#geo">GEO</a>
+      <a href="../#faq">FAQ</a>
+      <a href="./" style="color:var(--accent-neon);">Blog</a>
+      <a href="../#o-mne">O mně</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section style="padding-top:64px;">
+    <div class="wrap">
+      <div class="breadcrumbs">
+        <a href="../">Domů</a><span class="sep">/</span>Blog
+      </div>
+
+      <div class="section-head">
+        <span class="eyebrow">Blog</span>
+        <h1>SEO, lokální SEO a GEO — návody</h1>
+        <p>Krátké, konkrétní články navíc k ebookům. Bez agenturního žargonu, s praktickými kroky, které jdou udělat hned.</p>
+      </div>
+
+      <div class="blog-list">
+        <article class="blog-card">
+          <span class="date">28. 7. 2026</span>
+          <div>
+            <span class="tag">Lokální SEO</span>
+            <h2><a href="jak-na-lokalni-seo-remeslnik.html">Jak na lokální SEO, když jste řemeslník bez webu na plný úvazek</a></h2>
+            <p>Pět kroků, které zaberou víkend a reálně zvednou viditelnost v mapě a lokálním vyhledávání — bez agentury a bez placených nástrojů.</p>
+          </div>
+        </article>
+
+        <!-- Další články se budou přidávat sem, stejnou strukturou <article class="blog-card"> -->
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h3>JakNaOnline</h3>
+        <p>Digitální průvodce SEO, lokálním SEO a GEO — bez agentury, bez technických znalostí.</p>
+      </div>
+      <div class="footer-col">
+        <h3>Eboky</h3>
+        <a href="../#seo">SEO pro normální lidi</a>
+        <a href="../#lokalni-seo">Lokální SEO pro normální lidi</a>
+        <a href="../#geo">GEO pro normální lidi</a>
+      </div>
+      <div class="footer-col">
+        <h3>Kontakt</h3>
+        <a href="mailto:ahoj@jaknaonline.cz">ahoj@jaknaonline.cz</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> JakNaOnline</span>
+      <span>Ceny jsou uvedeny v EUR, platba přes SimpleShop</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  const navToggle = document.getElementById('navToggle');
+  const navLinks = document.getElementById('navLinks');
+  navToggle.addEventListener('click', () => {
+    const isOpen = navLinks.classList.toggle('open');
+    navToggle.setAttribute('aria-expanded', isOpen);
+  });
+</script>
+
+</body>
+</html>
