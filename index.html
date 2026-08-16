@@ -4,13 +4,19 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>JakNaOnline | Naučte se SEO, Lokální SEO a GEO — eboky pro každého</title>
-<meta name="description" content="Praktické eboky o SEO, lokálním SEO a GEO optimalizaci. Bez agentury, bez technických znalostí. Od 9 €.">
+<meta name="description" content="Praktické eboky o SEO, lokálním SEO a GEO optimalizaci. Bez agentury, bez technických znalostí. Od 200 Kč.">
 <link rel="canonical" href="https://jaknaonline.cz/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="JakNaOnline | Naučte se SEO, Lokální SEO a GEO">
-<meta property="og:description" content="Praktické eboky o SEO, lokálním SEO a GEO optimalizaci. Bez agentury, bez technických znalostí. Od 9 €.">
+<meta property="og:description" content="Praktické eboky o SEO, lokálním SEO a GEO optimalizaci. Bez agentury, bez technických znalostí. Od 200 Kč.">
 <meta property="og:url" content="https://jaknaonline.cz/">
 <meta property="og:locale" content="cs_CZ">
+<meta property="og:image" content="https://jaknaonline.cz/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="JakNaOnline — praktické eboky o SEO, lokálním SEO a GEO">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://jaknaonline.cz/og-image.png">
 <meta name="robots" content="index, follow">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%2304060b%22/><text x=%2250%22 y=%2266%22 font-size=%2255%22 text-anchor=%22middle%22 fill=%22%232effa0%22 font-family=%22monospace%22>&gt;</text></svg>">
 
@@ -19,20 +25,52 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 
+<!-- Organization Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "JakNaOnline",
+  "url": "https://jaknaonline.cz/",
+  "email": "jaknaonline@seznam.cz",
+  "description": "Praktické eboky a návody o SEO, lokálním SEO a GEO optimalizaci pro majitele webů, živnostníky a malé firmy.",
+  "knowsAbout": [
+    "SEO optimalizace",
+    "Lokální SEO",
+    "Google Business Profil",
+    "GEO optimalizace",
+    "Generative Engine Optimization",
+    "AI vyhledávání"
+  ]
+}
+</script>
+
+<!-- WebSite Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "JakNaOnline",
+  "url": "https://jaknaonline.cz/",
+  "inLanguage": "cs-CZ",
+  "publisher": { "@type": "Organization", "name": "JakNaOnline" }
+}
+</script>
+
 <!-- Product Schema: SEO ebook -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Product",
   "name": "SEO pro normální lidi",
-  "description": "Praktický ebook o SEO pro majitele webů a malé firmy bez technických znalostí. 13 kapitol, konkrétní kroky, jak dostat web na Google.",
+  "description": "Praktický ebook o SEO pro majitele webů a malé firmy bez technických znalostí. 13 kapitol, 5 bonusů, SEO plán na 30 dní a checklist před publikací.",
   "sku": "jaknaonline-seo-ebook",
   "brand": { "@type": "Brand", "name": "JakNaOnline" },
   "offers": {
     "@type": "Offer",
     "url": "https://jaknaonline.cz/#seo",
-    "price": "9",
-    "priceCurrency": "EUR",
+    "price": "200",
+    "priceCurrency": "CZK",
     "availability": "https://schema.org/InStock"
   }
 }
@@ -43,14 +81,14 @@
   "@context": "https://schema.org",
   "@type": "Product",
   "name": "Lokální SEO pro normální lidi",
-  "description": "Ebook o lokálním SEO — jak se dostat na Google Maps a přitáhnout zákazníky z okolí. Bez agentury, krok za krokem.",
+  "description": "Ebook o lokálním SEO — jak se dostat na Google Maps a přitáhnout zákazníky z okolí. 23 kapitol, 5 bonusů, plán na 30 dní a troubleshooting.",
   "sku": "jaknaonline-lokalni-seo-ebook",
   "brand": { "@type": "Brand", "name": "JakNaOnline" },
   "offers": {
     "@type": "Offer",
     "url": "https://jaknaonline.cz/#lokalni-seo",
-    "price": "9",
-    "priceCurrency": "EUR",
+    "price": "200",
+    "priceCurrency": "CZK",
     "availability": "https://schema.org/InStock"
   }
 }
@@ -61,14 +99,14 @@
   "@context": "https://schema.org",
   "@type": "Product",
   "name": "GEO pro normální lidi",
-  "description": "Ebook o GEO optimalizaci — jak se dostat do odpovědí ChatGPT, Gemini a dalších AI nástrojů. Průvodce pro začátečníky.",
+  "description": "Ebook o GEO optimalizaci — jak se dostat do odpovědí ChatGPT, Gemini a dalších AI nástrojů. 15 kapitol, 5 bonusů a GEO plán na 30 dní.",
   "sku": "jaknaonline-geo-ebook",
   "brand": { "@type": "Brand", "name": "JakNaOnline" },
   "offers": {
     "@type": "Offer",
     "url": "https://jaknaonline.cz/#geo",
-    "price": "9",
-    "priceCurrency": "EUR",
+    "price": "200",
+    "priceCurrency": "CZK",
     "availability": "https://schema.org/InStock"
   }
 }
@@ -82,50 +120,18 @@
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Co je SEO?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "SEO (Search Engine Optimization) je soubor kroků, kterými pomáháte vyhledávačům, jako je Google, pochopit obsah vašeho webu a zobrazit ho lidem, kteří hledají related témata. Zahrnuje práci s klíčovými slovy, obsahem, technickým stavem webu a odkazy z jiných stránek."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Jak být vidět na webu?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Abyste byli vidět na Googlu, musí vyhledávač váš web najít, pochopit, o čem je, a vyhodnotit ho jako užitečný pro daný dotaz. V praxi to znamená správně napsané nadpisy, kvalitní a jasný obsah, rychle načítající se stránku a alespoň pár odkazů z jiných relevantních webů."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Jak na SEO pro začátečníky?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Začátek SEO tvoří tři kroky: zjistit, co lidé o vašem oboru skutečně hledají, upravit podle toho nadpisy a texty na webu, a zrychlit stránku, aby se dobře načítala na mobilu i počítači."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Jak na lokální SEO?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Lokální SEO začíná vyplněním a ověřením Google Business Profilu, pokračuje sběrem recenzí od zákazníků a doplněním lokálních údajů (adresa, otevírací doba, oblast působnosti) přímo na web. Cílem je objevit se ve výsledcích poblíž mě a na mapě."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Jak se dostat na Google Maps?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Na Google Maps se dostanete přes Google Business Profil — bezplatný firemní profil, který si ověříte a vyplníte kompletními údaji o firmě. Čím víc relevantních informací a recenzí máte, tím výš se v mapových výsledcích zobrazujete."
-      }
-    },
-    {
-      "@type": "Question",
       "name": "Co je GEO optimalizace?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "GEO (Generative Engine Optimization) je úprava obsahu tak, aby si ho AI nástroje jako ChatGPT nebo Gemini všimly a použily ve svých generovaných odpovědích. Je to obdoba klasického SEO, jen cílená na AI chatboty místo tradičního vyhledávače."
+        "text": "GEO (Generative Engine Optimization) je úprava obsahu tak, aby si ho AI nástroje jako ChatGPT nebo Gemini všimly a použily ve svých generovaných odpovědích. Je to obdoba klasického SEO, jen cílená na AI chatboty místo tradičního vyhledávače. Základy vysvětluje ebook GEO pro normální lidi."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Jak začít s GEO optimalizací?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nejrychlejší první krok je přidat na začátek nejdůležitější stránky krátké shrnutí — dvě až tři věty, které přímo odpovídají na otázku, kterou stránka řeší. Dále pomáhá doplnit FAQ sekci ve formátu otázka jako nadpis, odpověď jako odstavec, a jasně definovat klíčové pojmy. Kompletní postup včetně 30denního plánu najdete v ebooku GEO pro normální lidi."
       }
     },
     {
@@ -133,7 +139,31 @@
       "name": "Jak být vidět v ChatGPT a dalších AI nástrojích?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "AI nástroje citují weby s jasnou strukturou, přímými odpověďmi a konkrétními fakty místo obecných formulací. Pomáhá mít na webu jasné definice pojmů, přehledné tabulky a otevřený přístup pro AI roboty v souboru robots.txt."
+        "text": "AI nástroje citují weby s jasnou strukturou, přímými odpověďmi a konkrétními fakty místo obecných formulací. Pomáhá mít na webu jasné definice pojmů, přehledné tabulky a otevřený přístup pro AI roboty (např. GPTBot, ClaudeBot) v souboru robots.txt. Podrobněji v ebooku GEO pro normální lidi."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Proč mě ChatGPT necituje?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nejčastější důvody jsou tři: obsah není strukturovaný tak, aby z něj šla vytáhnout jasná odpověď; web není zmiňovaný nikde jinde na internetu, takže AI nemá důvod ho považovat za důvěryhodný; nebo obsah neobsahuje konkrétní fakta a čísla, jen obecná marketingová tvrzení. Řešení všech tří rozebírá ebook GEO pro normální lidi."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Jak zjistím, jestli mě ChatGPT zná?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Zeptejte se přímo — napište do ChatGPT nebo Gemini dotaz na svůj obor a lokalitu, například „doporuč mi elektrikáře v Brně\". Pak zkuste přímý dotaz na název vaší firmy a sledujte, jestli AI odpoví konkrétně, nebo si informace vymyslí. Systematický postup měření popisuje ebook GEO pro normální lidi."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Funguje GEO i pro malý český web?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ano, a v mnoha ohledech je pro malý web příznivější než klasické SEO. AI nástroje nevybírají zdroje primárně podle autority domény, ale podle toho, jak jasně a konkrétně je obsah napsaný. Malý web s dobře strukturovaným obsahem tak může být citovaný vedle velkých značek."
       }
     },
     {
@@ -141,7 +171,79 @@
       "name": "Jaký je rozdíl mezi SEO a GEO?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "SEO optimalizuje web pro klasické vyhledávače jako Google nebo Seznam, kde se zobrazuje seznam odkazů. GEO optimalizuje obsah pro AI nástroje jako ChatGPT nebo Gemini, které generují přímou odpověď a jen některé zdroje v ní citují."
+        "text": "SEO optimalizuje web pro klasické vyhledávače jako Google nebo Seznam, kde se zobrazuje seznam odkazů. GEO optimalizuje obsah pro AI nástroje jako ChatGPT nebo Gemini, které generují přímou odpověď a jen některé zdroje v ní citují. Principy se částečně překrývají, ale GEO klade větší důraz na jasné definice a strukturu obsahu."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Můžu si udělat SEO a GEO sám, nebo potřebuju agenturu?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Většinu základní práce zvládne majitel webu sám — vyplnění Google Business Profilu, úpravu nadpisů a textů, přidání FAQ sekce nebo shrnutí na začátek stránky. Agentura má smysl u velkých webů, konkurenčních oborů nebo když nemáte čas. Ebooky SEO a GEO pro normální lidi vedou krok za krokem právě ty, kteří to chtějí zvládnout vlastními silami."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Co je SEO?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "SEO (Search Engine Optimization) je soubor kroků, kterými pomáháte vyhledávačům, jako je Google, pochopit obsah vašeho webu a zobrazit ho lidem, kteří hledají související témata. Zahrnuje práci s klíčovými slovy, obsahem, technickým stavem webu a odkazy z jiných stránek. Podrobný úvod najdete v ebooku SEO pro normální lidi."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Jak být vidět na webu?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Abyste byli vidět na Googlu, musí vyhledávač váš web najít, pochopit, o čem je, a vyhodnotit ho jako užitečný pro daný dotaz. V praxi to znamená správně napsané nadpisy, kvalitní a jasný obsah, rychle načítající se stránku a alespoň pár odkazů z jiných relevantních webů. Bez těchto základů se web na Googlu neobjeví, ať je obsahově sebelepší."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Jak na SEO pro začátečníky?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Začátek SEO tvoří tři kroky: zjistit, co lidé o vašem oboru skutečně hledají (klíčová slova), upravit podle toho nadpisy a texty na webu, a zrychlit stránku, aby se dobře načítala na mobilu i počítači. Celý postup krok za krokem, včetně 30denního plánu, popisuje ebook SEO pro normální lidi."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Jak dlouho trvá, než se SEO projeví?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "První změny bývají vidět za 4 až 8 týdnů od základní optimalizace, výraznější posun v pozicích obvykle za 3 až 6 měsíců. U nového webu bez historie to trvá déle než u zavedené domény. SEO není jednorázová akce — pozice se drží průběžnou prací na obsahu."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Kolik stojí SEO pro malý web?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Agentury si v Česku obvykle účtují od několika tisíc korun měsíčně výš, podle rozsahu a konkurence v oboru. Základní SEO si přitom majitel malého webu dokáže udělat sám — potřebuje jen vědět, co dělat a v jakém pořadí. Právě k tomu slouží ebook SEO pro normální lidi za 200 Kč."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Stačí mi na SEO jen plugin?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ne. SEO plugin jako Yoast nebo RankMath vám usnadní technické nastavení — meta popisky, sitemapu, strukturovaná data — ale nenapíše za vás obsah, nevybere klíčová slova a nezíská odkazy. Plugin je nástroj, ne strategie. Co s ním dělat, popisuje ebook SEO pro normální lidi."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Jak na lokální SEO?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Lokální SEO začíná vyplněním a ověřením Google Business Profilu, pokračuje sběrem recenzí od zákazníků a doplněním lokálních údajů (adresa, otevírací doba, oblast působnosti) přímo na web. Cílem je objevit se ve výsledcích „poblíž mě\" a na mapě. Detailní návod nabízí ebook Lokální SEO pro normální lidi."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Jak se dostat na Google Maps?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Na Google Maps se dostanete přes Google Business Profil — bezplatný firemní profil, který si ověříte a vyplníte kompletními údaji o firmě. Čím víc relevantních informací a recenzí máte, tím výš se v mapových výsledcích zobrazujete. Nastavení krok za krokem je součástí ebooku Lokální SEO pro normální lidi."
       }
     }
   ]
@@ -173,17 +275,22 @@
   <section class="hero" style="border-top:none; padding-top:64px;">
     <div class="wrap hero-grid">
       <div>
-        <span class="eyebrow">jaknaonline.cz · 3 eboky · 9 € za kus</span>
+        <span class="eyebrow">jaknaonline.cz · 3 eboky · 200 Kč za kus</span>
         <h1>Zvládněte <span class="hl">SEO</span> a <span class="hl">GEO</span><br>bez agentury</h1>
         <p class="lead">Digitální průvodce, který vysvětluje SEO, lokální SEO a GEO optimalizaci srozumitelně — bez žargonu a bez potřeby technických znalostí. Přečtete za víkend, používáte roky.</p>
+
+        <div class="tldr">
+          <span class="tldr-label">Ve zkratce</span>
+          <p>Máte web, ale zákazníci ho nenajdou? Google ho přehlíží, AI nástroje o něm nevědí. Nemusíte kvůli tomu platit agentuře tisíce měsíčně — <strong>JakNaOnline</strong> vám ukáže, jak to změnit sami. Tři eboky o SEO, lokálním SEO a GEO, psané pro lidi bez technických znalostí: 51 kapitol, 15 bonusů, tři 30denní plány. Každý za 200 Kč, česky, ke stažení ihned po zaplacení.</p>
+        </div>
         <div class="hero-cta-row">
           <a href="#seo" class="btn btn-primary">Vybrat ebook →</a>
           <a href="#o-mne" class="btn btn-ghost">Kdo za tím stojí</a>
         </div>
         <div class="hero-stats">
-          <div><span class="num">3</span><span class="lbl">eboky ke stažení</span></div>
-          <div><span class="num">9 €</span><span class="lbl">jednorázová platba</span></div>
-          <div><span class="num">100%</span><span class="lbl">česky, bez agentury</span></div>
+          <div><span class="num">51</span><span class="lbl">kapitol ve 3 ebocích</span></div>
+          <div><span class="num">200 Kč</span><span class="lbl">jednorázová platba</span></div>
+          <div><span class="num">15</span><span class="lbl">bonusů a checklistů</span></div>
         </div>
       </div>
 
@@ -215,10 +322,10 @@
           <text x="24" y="136" font-family="Space Grotesk, sans-serif" font-size="15" fill="#eaf1fb">pro normální lidi</text>
           <circle cx="180" cy="210" r="34" fill="none" stroke="#3d6fd6" stroke-width="3"/>
           <line x1="203" y1="233" x2="224" y2="254" stroke="#3d6fd6" stroke-width="4" stroke-linecap="round"/>
-          <text x="24" y="270" font-family="JetBrains Mono, monospace" font-size="10" fill="#7c8ba3">13 KAPITOL · PDF</text>
+          <text x="24" y="270" font-family="JetBrains Mono, monospace" font-size="10" fill="#7c8ba3">13 KAPITOL + 5 BONUSŮ</text>
         </svg>
         <div class="price-tag">
-          <span class="amount">9 €</span>
+          <span class="amount">200 Kč</span>
           <span class="note">jednorázová platba</span>
         </div>
         <a href="https://www.simpleshop.cz/" class="btn btn-primary" rel="noopener">Koupit na SimpleShop →</a>
@@ -230,18 +337,21 @@
         <p class="intro"><strong>Tento ebook je pro</strong> majitele webů, e-shopů a malých firem, kteří chtějí, aby je lidé našli na Googlu — bez placení agentuře a bez studia kódu. <strong>SEO (Search Engine Optimization)</strong> je soubor kroků, kterými pomáháte vyhledávačům pochopit, o čem váš web je, a lidem ho snáz najít.</p>
 
         <table class="spec">
-          <tr><td>Rozsah</td><td>13 kapitol, cca 80 stran</td></tr>
+          <tr><td>Rozsah</td><td>13 kapitol + 5 bonusů</td></tr>
+          <tr><td>Navíc</td><td>SEO plán na 30 dní, checklist před publikací</td></tr>
           <tr><td>Formát</td><td>PDF, ke stažení ihned po koupi</td></tr>
           <tr><td>Jazyk</td><td>čeština</td></tr>
           <tr><td>Úroveň</td><td>začátečník, bez technických znalostí</td></tr>
         </table>
 
         <ul class="chapters">
-          <li>Jak funguje vyhledávání — v lidské řeči, bez teorie</li>
-          <li>Klíčová slova: jak zjistit, co lidé skutečně hledají</li>
-          <li>On-page SEO — nadpisy, texty, obrázky, rychlost webu</li>
-          <li>Technické minimum, které opravdu potřebujete znát</li>
-          <li>30denní plán: co dělat týden po týdnu</li>
+          <li>Jak funguje Google — a co všechno se dá vyhrát v SERPu</li>
+          <li>Jak přemýšlí zákazník — hledání klíčových slov</li>
+          <li>Blog jako největší zdroj návštěvnosti zdarma</li>
+          <li>Interní prolinkování, obrázky a zpětné odkazy</li>
+          <li>Technické SEO bez programování</li>
+          <li>SEO vs. PPC — co se vyplatí víc a kdy SEO nedává smysl</li>
+          <li>SEO plán na 30 dní + checklist před publikací</li>
         </ul>
 
         <div class="faq">
@@ -252,7 +362,7 @@
           </details>
           <details>
             <summary>Kolik stojí?</summary>
-            <p class="faq-a">9 €, jednorázová platba. Bez předplatného, bez skrytých poplatků.</p>
+            <p class="faq-a">200 Kč, jednorázová platba. Bez předplatného, bez skrytých poplatků.</p>
           </details>
           <details>
             <summary>Je obsah v češtině?</summary>
@@ -275,10 +385,10 @@
           <text x="24" y="126" font-family="Space Grotesk, sans-serif" font-size="15" fill="#eaf1fb">pro normální lidi</text>
           <path d="M180 190 C180 170 200 170 200 190 C200 208 180 226 180 226 C180 226 160 208 160 190 C160 170 180 170 180 190 Z" fill="none" stroke="#3d6fd6" stroke-width="3"/>
           <circle cx="180" cy="190" r="7" fill="#3d6fd6"/>
-          <text x="24" y="270" font-family="JetBrains Mono, monospace" font-size="10" fill="#7c8ba3">9 KAPITOL · PDF</text>
+          <text x="24" y="270" font-family="JetBrains Mono, monospace" font-size="10" fill="#7c8ba3">23 KAPITOL + 5 BONUSŮ</text>
         </svg>
         <div class="price-tag">
-          <span class="amount">9 €</span>
+          <span class="amount">200 Kč</span>
           <span class="note">jednorázová platba</span>
         </div>
         <a href="https://www.simpleshop.cz/" class="btn btn-primary" rel="noopener">Koupit na SimpleShop →</a>
@@ -290,18 +400,22 @@
         <p class="intro"><strong>Tento ebook je pro</strong> majitele kamenných provozoven, řemeslníky a lokální služby, kteří chtějí být vidět, když je někdo hledá „v okolí". <strong>Lokální SEO</strong> je optimalizace webu a firemního profilu tak, aby vás vyhledávač nabídl lidem z vašeho regionu — typicky na Google Maps a v mapových výsledcích.</p>
 
         <table class="spec">
-          <tr><td>Rozsah</td><td>9 kapitol, cca 55 stran</td></tr>
+          <tr><td>Rozsah</td><td>23 kapitol + 5 bonusů</td></tr>
+          <tr><td>Navíc</td><td>Lokální SEO plán na 30 dní, checklist, troubleshooting</td></tr>
           <tr><td>Formát</td><td>PDF, ke stažení ihned po koupi</td></tr>
           <tr><td>Jazyk</td><td>čeština</td></tr>
-          <tr><td>Úroveň</td><td>začátečník, bez technických znalostí</td></tr>
+          <tr><td>Pro koho</td><td>kavárny, řemeslníci, lékaři — každá firma s provozovnou</td></tr>
         </table>
 
         <ul class="chapters">
-          <li>Jak funguje vyhledávání „poblíž mě" a mapové výsledky</li>
-          <li>Nastavení Google Business Profilu krok za krokem</li>
-          <li>Recenze: jak je získávat a jak na ně reagovat</li>
-          <li>Lokální obsah na webu, který vyhledávače chápou</li>
-          <li>Checklist pro launch — vše na jedné stránce</li>
+          <li>Jak Google vybírá firmy do Local Packu</li>
+          <li>Google Business Profil — založení, vyplnění, nejčastější chyby</li>
+          <li>Recenze — jak je získávat a jak na ně reagovat</li>
+          <li>Lokální klíčová slova, obsah a NAP konzistence</li>
+          <li>Lokální citace, katalogy a zpětné odkazy</li>
+          <li>Spam a black hat techniky — co vás může zničit</li>
+          <li>GBP pro více poboček, analýza konkurence, měření výsledků</li>
+          <li>Plán na 30 dní + checklist + troubleshooting „co dělat, když…"</li>
         </ul>
 
         <div class="faq">
@@ -338,10 +452,10 @@
           <circle cx="170" cy="190" r="3" fill="#2effa0"/>
           <circle cx="182" cy="190" r="3" fill="#2effa0"/>
           <circle cx="194" cy="190" r="3" fill="#2effa0"/>
-          <text x="24" y="270" font-family="JetBrains Mono, monospace" font-size="10" fill="#7c8ba3">11 KAPITOL · PDF</text>
+          <text x="24" y="270" font-family="JetBrains Mono, monospace" font-size="10" fill="#7c8ba3">15 KAPITOL + 5 BONUSŮ</text>
         </svg>
         <div class="price-tag">
-          <span class="amount">9 €</span>
+          <span class="amount">200 Kč</span>
           <span class="note">jednorázová platba</span>
         </div>
         <a href="https://www.simpleshop.cz/" class="btn btn-primary" rel="noopener">Koupit na SimpleShop →</a>
@@ -353,18 +467,22 @@
         <p class="intro"><strong>Tento ebook je pro</strong> majitele webů, kteří chtějí být vidět i tam, kde už dnes lidé hledají odpovědi — v ChatGPT, Gemini a dalších AI nástrojích. <strong>GEO (Generative Engine Optimization)</strong> je optimalizace obsahu tak, aby si ho AI nástroje všimly a citovaly ho ve svých odpovědích.</p>
 
         <table class="spec">
-          <tr><td>Rozsah</td><td>11 kapitol, cca 65 stran</td></tr>
+          <tr><td>Rozsah</td><td>15 kapitol + 5 bonusů</td></tr>
+          <tr><td>Navíc</td><td>GEO plán na 30 dní, checklist</td></tr>
           <tr><td>Formát</td><td>PDF, ke stažení ihned po koupi</td></tr>
           <tr><td>Jazyk</td><td>čeština</td></tr>
           <tr><td>Úroveň</td><td>začátečník, znalost SEO výhodou</td></tr>
         </table>
 
         <ul class="chapters">
-          <li>Jak AI nástroje vybírají a citují zdroje</li>
-          <li>Struktura obsahu, kterou AI snáz „přečte" a použije</li>
-          <li>Jasné definice a přímé odpovědi — proč fungují lépe než vata</li>
-          <li>robots.txt a přístup pro GPTBot, ClaudeBot a další</li>
-          <li>Jak zjistit, jestli vás AI nástroje už citují</li>
+          <li>Jak funguje AI vyhledávání a jak AI vybírá zdroje</li>
+          <li>Jak vytvořit stránku, kterou AI pochopí — konkrétní struktura</li>
+          <li>FAQ jako nejsnazší GEO strategie</li>
+          <li>Entity — jak AI pozná, kdo jste</li>
+          <li>Jak být zmíněný mimo vlastní web</li>
+          <li>AI Overviews — shrnutí přímo v Googlu</li>
+          <li>Jak zjistit, jestli vás AI zná + nejčastější GEO chyby</li>
+          <li>GEO plán na 30 dní + checklist</li>
         </ul>
 
         <div class="faq">
@@ -391,14 +509,54 @@
     <div class="wrap">
       <div class="section-head">
         <span class="eyebrow">Nejčastější otázky</span>
-        <h2>Otázky o SEO a GEO</h2>
-        <p>Odpovědi na to, co lidé nejčastěji hledají o viditelnosti na Googlu a v AI nástrojích.</p>
+        <h2>Otázky o GEO a SEO</h2>
+        <p>Odpovědi na to, co lidé nejčastěji hledají o viditelnosti v AI nástrojích a na Googlu.</p>
       </div>
 
       <div class="info-faq-grid">
         <details>
+          <summary>Co je GEO optimalizace?</summary>
+          <p class="faq-a">GEO (Generative Engine Optimization) je úprava obsahu tak, aby si ho AI nástroje jako ChatGPT nebo Gemini všimly a použily ve svých generovaných odpovědích. Je to obdoba klasického SEO, jen cílená na AI chatboty místo tradičního vyhledávače. Základy vysvětluje ebook <a href="#geo">GEO pro normální lidi</a>.</p>
+        </details>
+
+        <details>
+          <summary>Jak začít s GEO optimalizací?</summary>
+          <p class="faq-a">Nejrychlejší první krok je přidat na začátek nejdůležitější stránky krátké shrnutí — dvě až tři věty, které přímo odpovídají na otázku, kterou stránka řeší. Dále pomáhá doplnit FAQ sekci ve formátu otázka jako nadpis, odpověď jako odstavec, a jasně definovat klíčové pojmy. Kompletní postup včetně 30denního plánu najdete v ebooku <a href="#geo">GEO pro normální lidi</a>.</p>
+        </details>
+
+        <details>
+          <summary>Jak být vidět v ChatGPT a dalších AI nástrojích?</summary>
+          <p class="faq-a">AI nástroje citují weby s jasnou strukturou, přímými odpověďmi a konkrétními fakty místo obecných formulací. Pomáhá mít na webu jasné definice pojmů, přehledné tabulky a otevřený přístup pro AI roboty (např. GPTBot, ClaudeBot) v souboru robots.txt. Podrobněji v ebooku <a href="#geo">GEO pro normální lidi</a>.</p>
+        </details>
+
+        <details>
+          <summary>Proč mě ChatGPT necituje?</summary>
+          <p class="faq-a">Nejčastější důvody jsou tři: obsah není strukturovaný tak, aby z něj šla vytáhnout jasná odpověď; web není zmiňovaný nikde jinde na internetu, takže AI nemá důvod ho považovat za důvěryhodný; nebo obsah neobsahuje konkrétní fakta a čísla, jen obecná marketingová tvrzení. Řešení všech tří rozebírá ebook <a href="#geo">GEO pro normální lidi</a>.</p>
+        </details>
+
+        <details>
+          <summary>Jak zjistím, jestli mě ChatGPT zná?</summary>
+          <p class="faq-a">Zeptejte se přímo — napište do ChatGPT nebo Gemini dotaz na svůj obor a lokalitu, například „doporuč mi elektrikáře v Brně". Pak zkuste přímý dotaz na název vaší firmy a sledujte, jestli AI odpoví konkrétně, nebo si informace vymyslí. Systematický postup měření popisuje ebook <a href="#geo">GEO pro normální lidi</a>.</p>
+        </details>
+
+        <details>
+          <summary>Funguje GEO i pro malý český web?</summary>
+          <p class="faq-a">Ano, a v mnoha ohledech je pro malý web příznivější než klasické SEO. AI nástroje nevybírají zdroje primárně podle autority domény, ale podle toho, jak jasně a konkrétně je obsah napsaný. Malý web s dobře strukturovaným obsahem tak může být citovaný vedle velkých značek.</p>
+        </details>
+
+        <details>
+          <summary>Jaký je rozdíl mezi SEO a GEO?</summary>
+          <p class="faq-a">SEO optimalizuje web pro klasické vyhledávače jako Google nebo Seznam, kde se zobrazuje seznam odkazů. GEO optimalizuje obsah pro AI nástroje jako ChatGPT nebo Gemini, které generují přímou odpověď a jen některé zdroje v ní citují. Principy se částečně překrývají, ale GEO klade větší důraz na jasné definice a strukturu obsahu.</p>
+        </details>
+
+        <details>
+          <summary>Můžu si udělat SEO a GEO sám, nebo potřebuju agenturu?</summary>
+          <p class="faq-a">Většinu základní práce zvládne majitel webu sám — vyplnění Google Business Profilu, úpravu nadpisů a textů, přidání FAQ sekce nebo shrnutí na začátek stránky. Agentura má smysl u velkých webů, konkurenčních oborů nebo když nemáte čas. Ebooky <a href="#seo">SEO</a> a <a href="#geo">GEO pro normální lidi</a> vedou krok za krokem právě ty, kteří to chtějí zvládnout vlastními silami.</p>
+        </details>
+
+        <details>
           <summary>Co je SEO?</summary>
-          <p class="faq-a">SEO (Search Engine Optimization) je soubor kroků, kterými pomáháte vyhledávačům, jako je Google, pochopit obsah vašeho webu a zobrazit ho lidem, kteří hledají related témata. Zahrnuje práci s klíčovými slovy, obsahem, technickým stavem webu a odkazy z jiných stránek. Podrobný úvod najdete v ebooku <a href="#seo">SEO pro normální lidi</a>.</p>
+          <p class="faq-a">SEO (Search Engine Optimization) je soubor kroků, kterými pomáháte vyhledávačům, jako je Google, pochopit obsah vašeho webu a zobrazit ho lidem, kteří hledají související témata. Zahrnuje práci s klíčovými slovy, obsahem, technickým stavem webu a odkazy z jiných stránek. Podrobný úvod najdete v ebooku <a href="#seo">SEO pro normální lidi</a>.</p>
         </details>
 
         <details>
@@ -412,6 +570,21 @@
         </details>
 
         <details>
+          <summary>Jak dlouho trvá, než se SEO projeví?</summary>
+          <p class="faq-a">První změny bývají vidět za 4 až 8 týdnů od základní optimalizace, výraznější posun v pozicích obvykle za 3 až 6 měsíců. U nového webu bez historie to trvá déle než u zavedené domény. SEO není jednorázová akce — pozice se drží průběžnou prací na obsahu.</p>
+        </details>
+
+        <details>
+          <summary>Kolik stojí SEO pro malý web?</summary>
+          <p class="faq-a">Agentury si v Česku obvykle účtují od několika tisíc korun měsíčně výš, podle rozsahu a konkurence v oboru. Základní SEO si přitom majitel malého webu dokáže udělat sám — potřebuje jen vědět, co dělat a v jakém pořadí. Právě k tomu slouží ebook <a href="#seo">SEO pro normální lidi</a> za 200 Kč.</p>
+        </details>
+
+        <details>
+          <summary>Stačí mi na SEO jen plugin?</summary>
+          <p class="faq-a">Ne. SEO plugin jako Yoast nebo RankMath vám usnadní technické nastavení — meta popisky, sitemapu, strukturovaná data — ale nenapíše za vás obsah, nevybere klíčová slova a nezíská odkazy. Plugin je nástroj, ne strategie. Co s ním dělat, popisuje ebook <a href="#seo">SEO pro normální lidi</a>.</p>
+        </details>
+
+        <details>
           <summary>Jak na lokální SEO?</summary>
           <p class="faq-a">Lokální SEO začíná vyplněním a ověřením Google Business Profilu, pokračuje sběrem recenzí od zákazníků a doplněním lokálních údajů (adresa, otevírací doba, oblast působnosti) přímo na web. Cílem je objevit se ve výsledcích „poblíž mě" a na mapě. Detailní návod nabízí ebook <a href="#lokalni-seo">Lokální SEO pro normální lidi</a>.</p>
         </details>
@@ -419,21 +592,6 @@
         <details>
           <summary>Jak se dostat na Google Maps?</summary>
           <p class="faq-a">Na Google Maps se dostanete přes Google Business Profil — bezplatný firemní profil, který si ověříte a vyplníte kompletními údaji o firmě. Čím víc relevantních informací a recenzí máte, tím výš se v mapových výsledcích zobrazujete. Nastavení krok za krokem je součástí ebooku <a href="#lokalni-seo">Lokální SEO pro normální lidi</a>.</p>
-        </details>
-
-        <details>
-          <summary>Co je GEO optimalizace?</summary>
-          <p class="faq-a">GEO (Generative Engine Optimization) je úprava obsahu tak, aby si ho AI nástroje jako ChatGPT nebo Gemini všimly a použily ve svých generovaných odpovědích. Je to obdoba klasického SEO, jen cílená na AI chatboty místo tradičního vyhledávače. Základy vysvětluje ebook <a href="#geo">GEO pro normální lidi</a>.</p>
-        </details>
-
-        <details>
-          <summary>Jak být vidět v ChatGPT a dalších AI nástrojích?</summary>
-          <p class="faq-a">AI nástroje citují weby s jasnou strukturou, přímými odpověďmi a konkrétními fakty místo obecných formulací. Pomáhá mít na webu jasné definice pojmů, přehledné tabulky a otevřený přístup pro AI roboty (např. GPTBot, ClaudeBot) v souboru robots.txt. Podrobněji v ebooku <a href="#geo">GEO pro normální lidi</a>.</p>
-        </details>
-
-        <details>
-          <summary>Jaký je rozdíl mezi SEO a GEO?</summary>
-          <p class="faq-a">SEO optimalizuje web pro klasické vyhledávače jako Google nebo Seznam, kde se zobrazuje seznam odkazů. GEO optimalizuje obsah pro AI nástroje jako ChatGPT nebo Gemini, které generují přímou odpověď a jen některé zdroje v ní citují. Principy se částečně překrývají, ale GEO klade větší důraz na jasné definice a strukturu obsahu.</p>
         </details>
       </div>
     </div>
@@ -450,22 +608,22 @@
 
       <div class="blog-teaser-grid">
         <div class="blog-teaser-card">
-          <span class="date">28. 7. 2026</span>
-          <h3><a href="blog/jak-na-lokalni-seo-remeslnik.html">Jak na lokální SEO, když jste řemeslník bez webu na plný úvazek</a></h3>
-          <p>Pět kroků, které zaberou víkend a reálně zvednou viditelnost v mapě a lokálním vyhledávání.</p>
-          <a class="read-more" href="blog/jak-na-lokalni-seo-remeslnik.html">Číst dál →</a>
+          <span class="date">16. 8. 2026</span>
+          <h3><a href="blog/co-seo-plugin-neudela.html">7 věcí, které SEO plugin za vás neudělá</a></h3>
+          <p>Zelený semafor v pluginu neznamená dobré SEO. Co zůstává na vás.</p>
+          <a class="read-more" href="blog/co-seo-plugin-neudela.html">Číst dál →</a>
         </div>
         <div class="blog-teaser-card">
-          <span class="date">brzy</span>
-          <h3><a href="blog/blog.html">Jak zjistit, že vás ChatGPT už cituje</a></h3>
-          <p>Praktický postup, jak ověřit vlastní GEO viditelnost bez placených nástrojů.</p>
-          <a class="read-more" href="blog/blog.html">Číst dál →</a>
+          <span class="date">15. 8. 2026</span>
+          <h3><a href="blog/nez-vas-zacne-citovat-chatgpt.html">7 věcí, které udělejte, než vás začne citovat ChatGPT</a></h3>
+          <p>Sedm kroků v pořadí, v jakém dávají smysl. První tři zvládnete za odpoledne.</p>
+          <a class="read-more" href="blog/nez-vas-zacne-citovat-chatgpt.html">Číst dál →</a>
         </div>
         <div class="blog-teaser-card">
-          <span class="date">brzy</span>
-          <h3><a href="blog/blog.html">5 nejčastějších SEO chyb na malém webu</a></h3>
-          <p>Co majitelé webů dělají špatně nejčastěji — a jak to opravit za odpoledne.</p>
-          <a class="read-more" href="blog/blog.html">Číst dál →</a>
+          <span class="date">12. 8. 2026</span>
+          <h3><a href="blog/seo-chyby-na-vlastnim-webu.html">5 nejčastějších SEO chyb na webu, který jste si postavili sami</a></h3>
+          <p>Šablonový title tag, obrázky rovnou z foťáku, víc H1 na stránce.</p>
+          <a class="read-more" href="blog/seo-chyby-na-vlastnim-webu.html">Číst dál →</a>
         </div>
       </div>
     </div>
@@ -486,9 +644,9 @@
           </svg>
         </div>
         <div class="about-body">
-          <p>Ebooky vznikly z praktické zkušenosti s optimalizací webů — od prvních kroků v SEO až po sledování toho, jak dnes weby citují AI nástroje jako ChatGPT nebo Gemini.</p>
+          <p>Za JakNaOnline stojí praxe s optimalizací webů pro živnostníky a malé firmy — od prvních kroků v SEO až po sledování toho, jak dnes weby citují AI nástroje jako ChatGPT nebo Gemini.</p>
           <p><strong>Cílem je jednoduchost:</strong> žádný marketingový žargon, žádné prodlužování textu kvůli objemu. Každá kapitola vede k jednomu konkrétnímu kroku, který můžete hned udělat.</p>
-          <p>Obsah je psaný a udržovaný průběžně tak, aby odpovídal aktuálním pravidlům vyhledávačů i AI nástrojů.</p>
+          <p>Dohromady <strong>51 kapitol a 15 bonusů</strong> napříč třemi ebooky, tři samostatné 30denní plány a checklisty ke každému tématu. Obsah je psaný a průběžně aktualizovaný tak, aby odpovídal aktuálním pravidlům vyhledávačů i AI nástrojů.</p>
         </div>
       </div>
     </div>
@@ -511,12 +669,12 @@
       </div>
       <div class="footer-col">
         <h3>Kontakt</h3>
-        <a href="mailto:ahoj@jaknaonline.cz">ahoj@jaknaonline.cz</a>
+        <a href="mailto:jaknaonline@seznam.cz">jaknaonline@seznam.cz</a>
       </div>
     </div>
     <div class="footer-bottom">
       <span>© <span id="year"></span> JakNaOnline</span>
-      <span>Ceny jsou uvedeny v EUR, platba přes SimpleShop</span>
+      <span>Nejsem plátce DPH · Platba přes SimpleShop</span>
     </div>
   </div>
 </footer>
