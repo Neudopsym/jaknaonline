@@ -1,4 +1,4 @@
-  :root{
+:root{
     --bg-void:#04060b;
     --bg-panel:#0a1220;
     --bg-panel-alt:#0e1a2e;
@@ -445,3 +445,66 @@
 }
 .article-author .name{font-weight:500; font-size:0.92rem;}
 .article-author .role{color:var(--text-muted); font-size:0.8rem; font-family:var(--font-mono);}
+
+/* ============ TL;DR blok (hero + blog hub) ============ */
+.tldr{
+  border-left:2px solid var(--accent-neon);
+  background:linear-gradient(90deg, rgba(46,255,160,0.05), transparent 70%);
+  padding:18px 22px;
+  margin:0 0 30px;
+  border-radius:0 8px 8px 0;
+  max-width:56ch;
+}
+.tldr .tldr-label{
+  display:block;
+  font-family:var(--font-mono);
+  font-size:0.68rem;
+  letter-spacing:0.14em;
+  text-transform:uppercase;
+  color:var(--accent-neon);
+  margin-bottom:8px;
+}
+.tldr p{
+  color:var(--text-primary);
+  font-size:0.98rem;
+  line-height:1.62;
+  margin:0;
+}
+.tldr strong{color:var(--accent-neon); font-weight:600;}
+
+/* ============ inline kód v článcích ============ */
+.article-body code{
+  font-family:var(--font-mono);
+  font-size:0.88em;
+  background:var(--bg-panel-alt);
+  border:1px solid var(--border-line);
+  border-radius:4px;
+  padding:2px 7px;
+  color:var(--accent-neon);
+  white-space:nowrap;
+}
+
+/* ============ callout box v článcích ============ */
+.article-body .callout{
+  background:var(--bg-panel);
+  border:1px solid var(--border-line);
+  border-left:2px solid var(--accent-neon);
+  border-radius:0 8px 8px 0;
+  padding:20px 24px;
+  margin:28px 0;
+}
+.article-body .callout p{
+  margin:0;
+  font-size:0.95rem;
+  color:var(--text-muted);
+}
+.article-body .callout strong{color:var(--accent-neon);}
+
+/* ============ odkaz na související článek ============ */
+.article-body .related{
+  font-size:0.92rem;
+  color:var(--text-muted);
+  margin-top:34px;
+  padding-top:18px;
+  border-top:1px solid var(--border-line);
+}
